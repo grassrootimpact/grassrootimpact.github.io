@@ -266,23 +266,61 @@
                   <p style="font-family:cambria;color:white;font-size:14px;">Grassroot Impact, Golf Course Road,<br>Sec - 43, Gurgaon (HR)- 122001 </p>
               </div>
 			  <div class="col-md-12 wp4 delay-1s" align='center'>
-			  <br><br><p style="font-family:century gothic;color:Yellow;font-size:18px;">OR fill up this simple form bellow and our team will contact you at the earliest!</p>
+			  <br><br><p style="font-family:century gothic;color:Yellow;font-size:18px;"><big>OR</big><br><br>Simply fill up the form bellow and our team will contact you at the earliest!</p>
 				<div class="light-box">
-				<form 
-				action="mailto:gaurav.bansal@grassrootimpact.in"
-				method="POST"
-				enctype="multipart/form-data"
-				name="EmailTestForm" style="font-family:Times New Roman;color:#008080;font-size:14px;"> <b>I'm looking for</b>
-				<br><br><input type="radio" name="request" value="Technical" style="margin-left: 10px">Technical Training
-				<input type="radio" name="Request" value="ShopfloorProductivity" style="margin-left: 20px">Shop-floor Productivity Training
-				<input type="radio" name="Request" value="LifeSkill" style="margin-left: 20px">Life Skill Training
-				<input type="radio" name="Request" value="TPM" style="margin-left: 20px">TPM/TQM Consultancy
-				<input type="radio" name="Request" value="CSR" style="margin-left: 20px">CSR Advisory
-				<br><br>Full Name:<input type="text" size="20" name="VisitorName" style="margin-right: 10px">
-				Mail-id:<input type="text" size="20" name="VisitorMail" style="margin-right: 10px">
-				Contact Number:<input type="text" size="20" name="VisitorPhone" style="margin-right: 10px">
-				<br><br><input type="submit" value="Place Request">
-				</form>
+				<form name="htmlform" method="post" action="html_form_send.php">
+			<table width="450px">
+			</tr>
+			<tr>
+			 <b>I'm looking for</b>
+				<br><br><input type="radio" name="Program_Request" value="Technical" style="margin-left: 10px">Technical Training
+				<input type="radio" name="Program_Request" value="ShopfloorProductivity" style="margin-left: 20px">Shop-floor Productivity Training
+				<input type="radio" name="Program_Request" value="LifeSkill" style="margin-left: 20px">Life Skill Training
+				<input type="radio" name="Program_Request" value="TPM" style="margin-left: 20px">TPM/TQM Consultancy
+				<input type="radio" name="Program_Request" value="CSR" style="margin-left: 20px">CSR Advisory
+			</tr>
+			<br><br>
+			<tr>
+			 <td valign="top">
+			  <label for="first_name">First Name *</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="first_name" maxlength="50" size="30">
+			 </td>
+			</tr>
+ 
+			<tr>
+			 <td valign="top"">
+			  <label for="last_name">Last Name *</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="last_name" maxlength="50" size="30">
+			 </td>
+			</tr>
+			<tr>
+			 <td valign="top">
+			  <label for="email">Email Address *</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="email" maxlength="80" size="30">
+			 </td>
+			 
+			</tr>
+			<tr>
+			 <td valign="top">
+			  <label for="telephone">Contact Number</label>
+			 </td>
+			 <td valign="top">
+			  <input  type="text" name="telephone" maxlength="30" size="30">
+			 </td>
+			</tr>
+			<tr>
+			 <td colspan="2" style="text-align:center">
+			  <input type="submit" value="Submit">
+			 </td>
+			</tr>
+			</table>
+			</form>
 				</div>
 			  </div>
             </div>
